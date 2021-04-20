@@ -1,0 +1,17 @@
+[
+  {
+    "methods": [
+      {
+        "parameterTypes": [],
+        "name": "getPlatformClassLoader"
+      },
+      {
+        "parameterTypes": ["java.lang.String"],
+        "name": "loadClass"
+      }
+    ],
+    "name": "java.lang.ClassLoader"
+  },
+  {"name": "java.lang.ClassNotFoundException"},
+  {"name": "java.lang.NoSuchMethodError"}
+]

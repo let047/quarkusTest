@@ -1,0 +1,7 @@
+Staticizer summary.
+https://magicator.com/
+
+Staticizer ran: 2021-04-20T08:58:16.311028Z
+Magicator version: 0.1
+
+Main class: io.manycore.Main
