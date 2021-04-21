@@ -117,12 +117,16 @@ __  ____  __  _____   ___  __ ____  ______
 Do startup logic here
 ```
 
-...and compile and redo the tests above. Now the server will crash if you start it with PROD=1 and request the /hello page.
-
 In the other terminal:
 ```shell script
 quarkusTest ehsmeng> curl 'http://localhost:8080/hello'
-Flag was on. Did loads of reflection
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Internal Server Error - Error id 43114609-9509-4794-be78-abd359981507-2</title>
+    <meta charset="utf-8">
+    <style>
+html, body {
 ```
 
 Which will upset the running server:
