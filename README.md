@@ -152,7 +152,7 @@ Do startup logic here
 	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:164)
 ```
 
-Magicator does not cover everything. It's a compliment to native-agent.
+Magicator does not cover everything. It's a complement to native-agent.
 
 [You're welcome to use our free tool](https://staticizer.magicator.com/): 
 Upload your fat jar with Main-Class specified in META-INF/MANIFEST.MF. We'll create native-image configuration files for you.<br>
